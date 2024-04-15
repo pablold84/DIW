@@ -1,0 +1,28 @@
+.btn-custom {
+    color: #27A138; 
+    font-size: 1.9rem !important;
+  }
+/* Media query para pantallas más pequeñas, por ejemplo, dispositivos móviles */
+@media (max-width: 767px) {
+    .btn-custom {
+      font-size: 1.0rem !important;
+      display: flex;
+      flex-wrap:wrap;
+      align-items:flex-start;
+      justify-content: space-between;
+    }
+  }
+
+
+.navbar-logo{
+    display:flex;
+    vertical-align: middle;
+    width: 15rem;   
+  }
+.navbar-logo img{
+    width: 100%;
+    height: auto;
+    vertical-align:middle;
+    margin: -.5em auto; /*<-- Este es para cancelar el espacio entre la barra de navegación y la imagen*/
+    
+  }

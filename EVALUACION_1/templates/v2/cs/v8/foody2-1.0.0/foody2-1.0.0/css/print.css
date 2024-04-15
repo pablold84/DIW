@@ -1,0 +1,200 @@
+/* Ocultar todos los elementos con animaciones o transiciones */
+* {
+    animation: none !important;
+    transition: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    font-size: 100% !important;
+    font: inherit !important;
+    vertical-align: baseline !important;
+}
+
+
+/* Estilos generales para impresión */
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 12pt !important;
+    line-height: 1.6 !important;
+    color: #000; /* Color de texto negro */
+    text-align: justify !important;
+    font-weight: lighter !important;
+    background-color: #fff !important;
+    margin: 0.2rem !important;
+    padding: 2rem !important;
+    
+}
+p{
+    padding: 0.3rem !important;
+    margin-bottom: 0.3rem !important;
+}
+
+/* Estilos específicos para impresión de enlaces */
+a {
+    color: #000 !important; /* Color de enlaces negro */
+    text-decoration: none !important;
+    text-align: justify !important;
+    font-weight: lighter;
+}
+.d-block{
+    margin: 0.01rem !important;
+    margin-left: 1.2rem !important;
+    font-style: italic !important;
+}
+/* Eliminar bordes y sombras en imágenes */
+img {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Eliminar colores de fondo y bordes de ciertos elementos */
+h1 {
+    margin-bottom: 0.5em !important;
+    font-size: 19pt !important;
+    text-align: justify;
+    font-weight: bolder !important;
+}
+h4 {
+    margin-bottom: 0.5em !important;
+    font-size: 16pt !important;
+    text-align: justify !important;
+}
+
+
+/* Ocultar elementos innecesarios en impresión */
+#spinner {
+    display: none !important; /* Ocultar spinner */
+}
+
+/* Estilos específicos para impresión de testimonios */
+.testimonial-item {
+    page-break-inside: avoid !important; /* Evitar cortes de página dentro de testimonios */
+}
+
+/* Ajustes de margen y espacio en blanco para elementos específicos */
+#footer1 {
+   display: none !important;
+}
+
+/* Estilos para el botón "Vuelve al inicio" */
+.back-to-top {
+    display: none !important; /* Ocultar el botón en la impresión */
+}
+
+/* Estilos para la barra de navegación y elementos adicionales */
+nav, .d-none, .btn-primary, .btn-secondary, .btn-outline-light {
+    all: initial !important;
+/* Ocultar elementos innecesarios en la impresión */
+}
+.navbar-nav{
+    display: none !important;
+}
+.fa, .fab{
+    display: none !important;
+}
+.display-5{
+    margin-bottom: 0.7rem !important;
+}
+.mb-4{
+    margin-bottom: 0.2rem !important;
+    color: #000 !important;
+    font-style: italic !important;
+}
+#follow{
+    display: none ;
+}
+
+#carrusel {
+    display: none !important;
+  }
+
+#videoindex{
+    display: none !important;
+}
+
+.owl-stage{
+    transform: none !important;
+    width: auto !important;
+
+}
+
+.owl-nav{
+    display: none !important;
+}
+
+.rounded {
+    display: none !important;
+}
+
+.owl-item{
+    all: initial !important;
+    color: #000 !important;
+}
+.cloned{
+    all: initial !important;
+    color: #000 !important;
+}
+
+.img-fluid{
+    all: initial !important; 
+}
+img[src$=".jpg"] {
+    display: none !important; /* o el estilo que desees */
+  }
+.btn{
+    display: none !important;
+}
+.section-header{
+    all: initial !important;
+}
+.container{
+    all:initial !important;
+}
+.text-white{
+    color: #000 !important;
+    margin-bottom: 0.4rem !important;
+}
+.text-body{
+    display: none;
+}
+.text-muted{
+    display: none !important;
+}
+.container-fluid{
+    all: initial;
+    background-color: #fff !important;
+    background: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.row{
+    all: initial !important;
+    display: block !important;
+    margin: 0 !important;
+}
+.col{
+    all: initial !important;
+    display: block !important;
+    margin: 0 !important;
+}
+.container-xxl{
+    all: initial !important;
+}
+.col-lg-6{
+    all: initial !important;
+}
+.text-center{
+text-align: justify !important;
+}
+.bg-light{
+    all: initial !important;
+}
+.nav{
+    display: none !important;
+}
+.bg-white{
+    all: initial !important;
+}
+.cloned{
+    display: none !important;
+}

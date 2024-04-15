@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Foody - Organic Food Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="../img/bg-iconpestana.png" rel="icon">
+
+    <!-- Google Web Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap"
+        rel="stylesheet">
+
+     <!-- Fuentes Stylesheet iconos-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Stylesheet librerias-->
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+     <!-- Bootstrap Stylesheet -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Stylesheet plantillas-->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- Stylesheet Imprimir-->
+    <link rel="stylesheet" type="text/css" href="../css/printblog.css" media="print">
+
+</head>
+
+<body>
+    <!-- Spinner inicio -->
+    <header id="head1">
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" role="status"></div>
+        </div>
+        <!-- Spinner fin -->
+
+
+        <!-- Navbar inicio -->
+        <nav>
+            <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+                <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+                    <div class="col-lg-6 px-5 text-start">
+                        <small><i class="fa fa-map-marker-alt me-2"></i>Calle Dr. Alfredo Martínez, 3, España</small>
+                        <small class="ms-4"><i class="fa fa-envelope me-2"></i>greenish@greenish.com</small>
+                    </div>
+                    <div class="col-lg-6 px-5 text-end">
+                        <small>Síguenos:</small>
+                        <a class="text-body ms-3" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="text-body ms-3" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="text-body ms-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="text-body ms-3" href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                        <h1 class="fw-bold text-primary m-0">G<span class="text-secondary">reeni</span>sh</h1>
+                    </a>
+                    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto p-4 p-lg-0">
+                            <a href="../index.html" class="nav-item nav-link">Inicio</a>
+                            <a href="../html/blog.html" class="nav-item nav-link active">Blog</a>
+                            <a href="../html/product.html" class="nav-item nav-link">Productos</a>
+                            <a href="../html/testimonial.html" class="nav-item nav-link">Reseñas</a>
+                            <a href="../html/contact.html" class="nav-item nav-link">Contacto</a>
+                        </div>
+                        <div class="d-none d-lg-flex ms-2">
+                            <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
+                                <small class="fa fa-search text-body"></small>
+                            </a>
+                            <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
+                                <small class="fa fa-user text-body"></small>
+                            </a>
+                            <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
+                                <small class="fa fa-shopping-bag text-body"></small>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+        <!-- Navbar fin -->
+
+        <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
+            <div class="container d-none d-sm-block">
+                <h1 class="display-3 mb-3 animated slideInDown">Blog</h1>
+                <nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item"><a class="text-body" href="../index.html">inicio</a></li>
+                        <li class="breadcrumb-item"><a class="text-body" href="../html/contact.html">Contacto</a></li>
+                        <li class="breadcrumb-item text-dark active" aria-current="page">Blog</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header fin -->
+    <!-- Blog inicio -->
+    <main id="main1">
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s"
+                    style="max-width: 500px;">
+                    <h1 class="display-5 mb-3">Noticias destacadas</h1>
+                    <p>Descubre las últimas novedades y noticias verdes en nuestro blog ecológico.</p>
+                </div>
+
+                <!-- Modal 1-->
+                <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="ModalLabel1">Sembrando Sotenibilidad:</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="text-justify">
+                                En un rincón especial, entre la tierra fértil y el sol radiante, nace una historia que
+                                va más allá de las simples semillas. Es un relato de compromiso, dedicación y, sobre
+                                todo, una profunda pasión por la sostenibilidad. En el corazón de esta historia se
+                                encuentra un grupo de individuos unidos por el propósito común de cultivar un cambio
+                                positivo en el mundo.
+
+                                La narrativa comienza con la visión de transformar la agricultura tradicional en una
+                                práctica respetuosa con el medio ambiente. Este grupo de pioneros, apasionados por la
+                                salud del planeta y sus habitantes, decide dar un paso valiente hacia la sostenibilidad.
+                                Comprenden que la tierra es más que un recurso; es un hogar que merece ser cuidado y
+                                protegido.
+
+                                La historia se desarrolla a medida que estos defensores de la naturaleza trabajan en
+                                estrecha colaboración con la tierra, adoptando prácticas agrícolas que promueven la
+                                biodiversidad, minimizan el uso de productos químicos y respetan los ciclos naturales.
+                                Cada semilla plantada es una declaración de su compromiso con un futuro más verde y
+                                saludable.
+
+                                La pasión verde impulsa cada paso, desde la selección cuidadosa de semillas hasta la
+                                cosecha meticulosa de los frutos. Cada agricultor tiene una conexión profunda con su
+                                trabajo, comprendiendo que están contribuyendo a un cambio significativo en la forma en
+                                que la sociedad se relaciona con la comida y la naturaleza.
+
+                                A medida que los campos florecen con una exuberancia vibrante, la comunidad que rodea
+                                este proyecto sostenible comienza a florecer también. Se establecen lazos más fuertes
+                                entre los agricultores y aquellos que valoran los productos cultivados con amor y
+                                respeto por el medio ambiente. La historia se convierte en un llamado a la acción,
+                                inspirando a otros a unirse a la causa y a adoptar prácticas sostenibles en sus propias
+                                vidas.
+
+                                "Sembrando Sostenibilidad" no es solo una historia; es un recordatorio poderoso de que
+                                cada elección que hacemos puede tener un impacto duradero en el mundo que compartimos.
+                                Es un viaje que celebra la pasión por la tierra, la comunidad y un futuro donde la
+                                sostenibilidad es más que una palabra; es un compromiso viviente que crece con cada
+                                semilla plantada y cada corazón que se une a esta causa.
+                            </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 2-->
+                <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="ModalLabel2">Sembrando Sotenibilidad:</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="text-justify">
+                                En el corazón de la lucha por la sostenibilidad y el respeto al medio ambiente, se
+                                encuentra el crucial desafío de preservar la biodiversidad. La diversidad de vida en
+                                nuestro planeta, tanto en fauna como en flora, es esencial para el equilibrio de los
+                                ecosistemas y la salud de nuestro entorno. Sin embargo, la biodiversidad enfrenta
+                                amenazas significativas en la actualidad, lo que exige estrategias ingeniosas y
+                                conscientes para su conservación y aprovechamiento responsable.
+
+                                Desafíos Actuales
+
+                                Las actividades humanas, como la deforestación, la urbanización descontrolada y la
+                                contaminación, han desencadenado una disminución alarmante en la diversidad biológica.
+                                Especies animales y vegetales, algunas de las cuales son fundamentales para la salud del
+                                planeta, se encuentran en peligro de extinción. Este declive pone en riesgo la cadena
+                                alimentaria, afecta la polinización y contribuye a la pérdida de hábitats naturales.
+
+                                Conservación Responsable
+
+                                Ante este panorama, la conservación responsable se presenta como una imperativa
+                                necesidad. Proyectos de reforestación, áreas de conservación protegidas y la
+                                implementación de prácticas agrícolas sostenibles son pasos cruciales para frenar la
+                                pérdida de biodiversidad. Además, es vital sensibilizar a la sociedad sobre la
+                                importancia de mantener un equilibrio entre el desarrollo humano y la preservación del
+                                medio ambiente.
+
+                                Aprovechamiento Sostenible de Recursos Naturales
+
+                                Paralelamente, surge la necesidad de adoptar estrategias que permitan el aprovechamiento
+                                sostenible de los recursos naturales. En el contexto de la alimentación, el impulso de
+                                la agricultura ecológica y la promoción de alimentos producidos de manera sostenible
+                                contribuyen a la preservación de la biodiversidad. Optar por productos orgánicos no solo
+                                apoya a los agricultores locales, sino que también ayuda a mantener la diversidad
+                                genética de cultivos.
+
+                                El Rol de la Agricultura Ecológica
+
+                                La agricultura ecológica se erige como un pilar fundamental en la conservación de la
+                                biodiversidad. Al abstenerse del uso intensivo de productos químicos y pesticidas,
+                                promueve la salud del suelo y fomenta la coexistencia armoniosa entre cultivos y fauna
+                                auxiliar, como insectos beneficiosos y aves depredadoras. Esta práctica no solo protege
+                                la biodiversidad, sino que también brinda alimentos más saludables y nutritivos.
+
+                                Compromiso Colectivo
+
+                                En este viaje hacia la conservación de la biodiversidad, es esencial el compromiso
+                                colectivo. La educación ambiental, la participación ciudadana y el apoyo a iniciativas
+                                sostenibles son clave para enfrentar la crisis de la biodiversidad. Al optar por
+                                alimentos ecológicos y respaldar prácticas agrícolas sostenibles, cada individuo
+                                contribuye a la preservación de nuestro invaluable tesoro biológico.
+
+                                En conclusión, el delicado equilibrio entre la conservación y el aprovechamiento
+                                responsable de la biodiversidad requiere de acciones concertadas y decisiones
+                                conscientes. En el mundo de los alimentos ecológicos, cada elección diaria puede
+                                convertirse en un acto significativo para proteger y celebrar la diversidad de vida en
+                                nuestro planeta.
+                            </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 3-->
+                <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="ModalLabel3">Sembrando Sotenibilidad:</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="text-justify">
+                                En la era moderna, donde la sostenibilidad se ha convertido en el epicentro de las
+                                decisiones y prácticas, la innovación en la producción de alimentos juega un papel
+                                crucial. En este contexto, la Agricultura Vertical emerge como una revolución que no
+                                solo transforma la manera en que cultivamos nuestros alimentos, sino que también ofrece
+                                soluciones sostenibles para desafíos alimentarios y ambientales.
+
+                                El Desafío de la Producción Alimentaria
+
+                                El rápido crecimiento de la población mundial y la urbanización continua plantean
+                                desafíos significativos para la producción de alimentos. La agricultura convencional, a
+                                menudo limitada por la disponibilidad de tierra y recursos, se enfrenta a la necesidad
+                                de encontrar métodos más eficientes y sostenibles. En este escenario, la Agricultura
+                                Vertical emerge como una respuesta visionaria.
+
+                                Agricultura Vertical: Una Revolución en las Alturas
+
+                                La Agricultura Vertical implica cultivar alimentos en estructuras apiladas en lugar de
+                                extenderse horizontalmente sobre grandes extensiones de tierra. Utilizando tecnologías
+                                como sistemas hidropónicos y aeropónicos, esta innovadora práctica permite cultivar una
+                                variedad de productos en entornos controlados en edificios verticales. Este enfoque no
+                                solo maximiza el uso del espacio, sino que también reduce la necesidad de extensas áreas
+                                de tierra agrícola.
+
+                                Eficiencia y Sostenibilidad
+
+                                Uno de los mayores beneficios de la Agricultura Vertical es su eficiencia en el uso de
+                                recursos. Al optimizar el agua, minimizar el uso de pesticidas y maximizar la
+                                productividad por metro cuadrado, esta técnica revolucionaria se presenta como una
+                                solución sostenible para el futuro alimentario. Además, al acercar la producción a los
+                                centros urbanos, se reducen las emisiones de transporte y se fomenta un sistema más
+                                local y sostenible.
+
+                                Diversificación y Resiliencia
+
+                                La Agricultura Vertical no solo ofrece eficiencia, sino también diversificación en la
+                                producción de alimentos. Desde hierbas frescas hasta hortalizas y frutas, esta
+                                metodología permite la producción de una amplia gama de productos, contribuyendo a la
+                                diversificación de la dieta y a la resiliencia frente a condiciones climáticas
+                                cambiantes.
+
+                                El Compromiso con la Sostenibilidad
+
+                                La adopción de la Agricultura Vertical representa un compromiso con la sostenibilidad y
+                                la seguridad alimentaria. La capacidad de controlar factores ambientales como la luz, la
+                                temperatura y la humedad proporciona un entorno ideal para el crecimiento de cultivos
+                                durante todo el año. Este enfoque revolucionario no solo aborda la creciente demanda de
+                                alimentos, sino que también reduce la dependencia de prácticas agrícolas que puedan
+                                tener un impacto negativo en el medio ambiente.
+
+                                El Futuro de la Producción de Alimentos
+
+                                En conclusión, la Agricultura Vertical se perfila como el futuro de la producción de
+                                alimentos, fusionando innovación y sostenibilidad. A medida que avanzamos hacia un mundo
+                                donde la preocupación por el medio ambiente y la seguridad alimentaria está en constante
+                                aumento, esta revolución vertical ofrece una visión prometedora de cómo podemos cultivar
+                                nuestros alimentos de manera más eficiente, sostenible y resiliente.
+                            </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 4-->
+                <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="ModalLabel4">Sembrando Sotenibilidad:</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="text-justify">
+                                En la búsqueda constante de opciones más saludables, sostenibles y deliciosas, nos
+                                adentramos en la Revolución Verde que está transformando nuestra manera de experimentar
+                                con la comida en la cocina. Esta revolución no solo se trata de ingredientes más frescos
+                                y nutritivos, sino también de un compromiso renovado con prácticas alimentarias que
+                                respetan y preservan nuestro entorno.
+
+                                El Renacer de la Cocina Sostenible
+
+                                La Revolución Verde en la cocina no es solo una moda pasajera, sino un cambio
+                                significativo en la forma en que elegimos y preparamos nuestros alimentos. Los alimentos
+                                gastronómicos ecológicos, provenientes de prácticas agrícolas sostenibles, están
+                                liderando esta revolución al ofrecer beneficios tanto para nuestra salud como para el
+                                medio ambiente.
+
+                                Alimentos Gastronómicos Ecológicos: Un Festín para los Sentidos
+
+                                Explorar los alimentos gastronómicos ecológicos es sumergirse en un festín de sabores,
+                                colores y texturas. Desde frutas y verduras frescas cultivadas de manera responsable
+                                hasta carnes de origen ético, estos ingredientes no solo deleitan nuestro paladar, sino
+                                que también nos permiten apreciar la autenticidad de los productos locales y
+                                estacionales.
+
+                                Sostenibilidad en Cada Bocado
+
+                                La Revolución Verde en la cocina se basa en la premisa de la sostenibilidad. Los
+                                alimentos gastronómicos ecológicos se cultivan utilizando métodos que respetan el
+                                equilibrio natural del ecosistema. La ausencia de pesticidas y productos químicos
+                                nocivos no solo beneficia nuestra salud, sino que también protege la biodiversidad y
+                                promueve la salud del suelo.
+
+                                La Importancia de Conectar con Orígenes Locales
+
+                                Explorar la Revolución Verde en tu cocina implica conectarse con los productores locales
+                                y optar por alimentos que reflejen la riqueza de la región. Este enfoque no solo
+                                respalda a la comunidad, sino que también reduce la huella de carbono asociada con la
+                                producción y el transporte de alimentos. Es una manera deliciosa de apoyar la economía
+                                local mientras disfrutas de productos frescos y auténticos.
+
+                                El Arte de Cocinar con Conciencia Ambiental
+
+                                La cocina se convierte en un arte culinario consciente cuando nos sumergimos en la
+                                Revolución Verde. Desde la elección de ingredientes hasta las técnicas de preparación,
+                                cada paso se realiza con la consciencia de su impacto en la salud del planeta. La
+                                creatividad culinaria se combina con la responsabilidad ambiental para ofrecer
+                                experiencias gastronómicas que trascienden el simple acto de comer.
+
+                                El Futuro de Nuestras Cocinas
+
+                                En conclusión, descubrir la Revolución Verde en tu cocina es abrazar un futuro culinario
+                                más saludable y sostenible. Los alimentos gastronómicos ecológicos no solo son una
+                                opción de moda, sino una declaración de principios que invita a todos a participar en la
+                                creación de un mundo donde la comida no solo satisfaga el apetito, sino que también
+                                cuide de nuestro planeta. En cada bocado, encontramos la oportunidad de ser parte de
+                                algo más grande: una revolución verde en la que todos podemos participar.
+                            </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 5-->
+                <div class="modal fade" id="Modal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="ModalLabel5">Sembrando Sotenibilidad:</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="text-justify">
+                                En el corazón de nuestras elecciones alimenticias se encuentra una conexión profunda
+                                entre el cultivo sostenible y el viaje de los alimentos ecológicos desde los campos
+                                hasta nuestra mesa. La Cultura de Consciencia que rodea al cultivo sostenible no solo
+                                resalta la importancia de la salud, sino que también invoca una apreciación más profunda
+                                por la interconexión entre la tierra, la comida y nuestro bienestar general.
+
+                                La Transformación del Cultivo a Sostenibilidad
+
+                                El cultivo sostenible no es simplemente una técnica agrícola; es un compromiso con
+                                prácticas que respetan y protegen nuestro entorno. Desde la conservación del suelo hasta
+                                la gestión responsable del agua, estas prácticas no solo aseguran la viabilidad a largo
+                                plazo de la agricultura, sino que también contribuyen a la preservación de la
+                                biodiversidad y al equilibrio de los ecosistemas.
+
+                                Alimentos Ecológicos: Más Allá de la Salud Personal
+
+                                Cuando llevamos alimentos ecológicos a nuestra mesa, estamos incorporando más que solo
+                                opciones saludables. Estamos optando por un estilo de vida que reconoce la
+                                interdependencia entre el hombre y la naturaleza. Estos alimentos no solo nutren
+                                nuestros cuerpos, sino que también alimentan un sistema agrícola que respeta la
+                                diversidad biológica, promueve la salud del suelo y contribuye a la lucha contra el
+                                cambio climático.
+
+                                La Cadena de Consciencia en Cada Etapa
+
+                                La Cultura de Consciencia se teje a lo largo de cada etapa, desde la siembra hasta la
+                                cosecha y, finalmente, a nuestra mesa. Optar por alimentos cultivados de manera
+                                sostenible impulsa la economía local, apoya a los agricultores que adoptan prácticas
+                                respetuosas con el medio ambiente y reduce la huella de carbono asociada con la
+                                producción y el transporte de alimentos.
+
+                                Cultivando Comunidades y Resiliencia
+
+                                El cultivo sostenible va más allá de la producción de alimentos; cultiva comunidades
+                                resilientes. Al fomentar la diversificación de cultivos y el respeto por los ciclos
+                                naturales, se promueve la resistencia frente a desafíos ambientales y económicos.
+                                Además, el cultivo sostenible es un puente que conecta a las comunidades locales,
+                                creando lazos más fuertes entre productores y consumidores.
+
+                                La Experiencia de una Comida Consciente
+
+                                Cuando nos sentamos a disfrutar de una comida elaborada con alimentos ecológicos
+                                provenientes de cultivos sostenibles, experimentamos una conexión más profunda con el
+                                mundo que nos rodea. Cada bocado se convierte en un acto consciente, una celebración de
+                                la tierra que nutre y sostiene nuestras vidas.
+
+                                El Futuro de la Agricultura Sostenible
+
+                                En conclusión, al abrazar la Cultura de Consciencia y elegir alimentos ecológicos
+                                cultivados de manera sostenible, estamos contribuyendo al futuro de la agricultura
+                                sostenible. En cada elección consciente, cultivamos una relación armoniosa entre la
+                                humanidad y la naturaleza, recordándonos que el acto de comer puede ser un acto poderoso
+                                de cambio, no solo para nuestra salud individual, sino también para el bienestar del
+                                planeta que llamamos hogar.
+                                </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 6-->
+                <div class="modal fade" id="Modal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="ModalLabel6">Sembrando Sotenibilidad:</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="text-justify">
+                                Adentrarse en el mundo del sabor ecológico es sumergirse en una experiencia culinaria
+                                que va más allá de lo ordinario. La búsqueda de alimentos cultivados de manera
+                                sostenible no solo resalta la calidad del sabor, sino que también despierta una conexión
+                                más profunda con la tierra, los ciclos naturales y el arte de apreciar la verdadera
+                                esencia de cada ingrediente.
+
+                                Explorando el Mundo del Sabor Ecológico
+
+                                El sabor ecológico trasciende los límites de lo convencional. Proviene de alimentos
+                                cultivados con respeto por la biodiversidad y con prácticas agrícolas que nutren el
+                                suelo en lugar de agotarlo. La pureza y autenticidad de estos alimentos se traducen
+                                directamente en la intensidad y riqueza de los sabores, ofreciendo una experiencia
+                                culinaria que deleita y sorprende a los sentidos.
+
+                                La Transformación de la Experiencia Culinaria
+
+                                Cuando optamos por alimentos cultivados de manera sostenible, estamos dando un paso
+                                hacia una experiencia culinaria transformadora. Cada ingrediente cuenta una historia de
+                                respeto por el medio ambiente y de compromiso con prácticas agrícolas que valoran la
+                                calidad sobre la cantidad. La frescura y vitalidad de estos alimentos se traducen en
+                                platillos que van más allá de satisfacer el hambre, creando una conexión única entre el
+                                comensal y la naturaleza.
+
+                                Sostenibilidad en Cada Bocado
+
+                                El sabor ecológico no solo es un placer para el paladar, sino también un acto de
+                                sostenibilidad en cada bocado. Al elegir alimentos cultivados de manera sostenible,
+                                estamos apoyando prácticas agrícolas que preservan la salud del suelo, promueven la
+                                biodiversidad y reducen la huella de carbono asociada con la producción alimentaria. Es
+                                una elección consciente que agrega un valor adicional a cada comida.
+
+                                El Arte de Apreciar Ingredientes Auténticos
+
+                                La experiencia culinaria se convierte en un arte cuando aprendemos a apreciar
+                                ingredientes auténticos cultivados con esmero y respeto. El sabor ecológico nos invita a
+                                reconectar con la tierra y a valorar la temporada y la región de donde provienen
+                                nuestros alimentos. Cada bocado se convierte en una celebración de la diversidad y la
+                                riqueza de la naturaleza.
+
+                                El Futuro del Sabor Sostenible
+
+                                En conclusión, el sabor ecológico no solo es una tendencia gastronómica, sino una
+                                elección consciente que define el futuro de nuestras experiencias culinarias. Al
+                                sumergirnos en este mundo del sabor ecológico, no solo estamos disfrutando de alimentos
+                                excepcionales, sino también contribuyendo a un sistema alimentario más sostenible y
+                                resiliente. En cada comida, encontramos la oportunidad de deleitar nuestros sentidos y,
+                                al mismo tiempo, abrazar un enfoque más ético y sostenible hacia la alimentación.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <img class="img-fluid" src="../img/blog-1.jpg" alt="">
+                        <div class="bg-light p-4">
+                            <a class="d-block h5 lh-base mb-4 no-seleccionable" href="#bg-light p-4">Sembrando Sostenibilidad: Una
+                                Historia de Pasión Verde <en></en> Manos Expertas</a>
+                            <!-- Button trigger modal 1 -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#Modal1">
+                                Ver más
+                            </button>
+                            <div class="text-muted border-top pt-4">
+                                <small class="me-3"><i class="fa fa-user text-primary me-2"></i>Admin</small>
+                                <small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>01 Enero,
+                                    2022</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <img class="img-fluid" src="../img/blog-2.jpg" alt="">
+                        <div class="bg-light p-4">
+                            <a class="d-block h5 lh-base mb-4 no-seleccionable" href="#bg-light p-4">Biodiversidad en Peligro:
+                                Estrategias para Conservar y explotar Nuestra Fauna y Flora</a>
+                            <!-- Button trigger modal 2 -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#Modal2">
+                                Ver más
+                            </button>
+                            <div class="text-muted border-top pt-4">
+                                <small class="me-3"><i class="fa fa-user text-primary me-2"></i>Admin</small>
+                                <small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>11 Marzo,
+                                    2022</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <img class="img-fluid" src="../img/blog-3.jpg" alt="">
+                        <div class="bg-light p-4">
+                            <a class="d-block h5 lh-base mb-4 no-seleccionable" href="#bg-light p-4">Innovación Sostenible: Agricultura
+                                Vertical Revoluciona la Producción de Alimentos</a>
+                            <!-- Button trigger modal 3 -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#Modal3">
+                                Ver más
+                            </button>
+                            <div class="text-muted border-top pt-4">
+                                <small class="me-3"><i class="fa fa-user text-primary me-2"></i>Admin</small>
+                                <small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>18 Junio,
+                                    2022</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <img class="img-fluid" src="../img/blog-4.jpg" alt="">
+                        <div class="bg-light p-4">
+                            <a class="d-block h5 lh-base mb-4 no-seleccionable" href="#bg-light p-4">Descubre la Revolución Verde en tu
+                                Cocina. Exploraremos cómo los alimentos gastronómicos ecológicos están liderando una
+                                revolución en nuestras cocinas</a>
+                            <!-- Button trigger modal 4 -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#Modal4">
+                                Ver más
+                            </button>
+                            <div class="text-muted border-top pt-4">
+                                <small class="me-3"><i class="fa fa-user text-primary me-2"></i>Admin</small>
+                                <small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>03 Febrero,
+                                    2023</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <img class="img-fluid" src="../img/blog-5.jpg" alt="">
+                        <div class="bg-light p-4">
+                            <a class="d-block h5 lh-base mb-4 no-seleccionable" href="#bg-light p-4">Cultivando Consciencia: Del Cultivo
+                                Sostenible a tu Mesa, la importancia del cultivo sostenible y cómo los alimentos
+                                ecológicos van más allá de ser simplemente saludables</a>
+                            <!-- Button trigger modal 5 -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#Modal5">
+                                Ver más
+                            </button>
+                            <div class="text-muted border-top pt-4">
+                                <small class="me-3"><i class="fa fa-user text-primary me-2"></i>Admin</small>
+                                <small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>11 Junio,
+                                    2023</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <img class="img-fluid" src="../img/blog-6.jpg" alt="">
+                        <div class="bg-light p-4">
+                            <a class="d-block h5 lh-base mb-4 no-seleccionable" href="#bg-light p-4">Sabor Ecológico: Una Experiencia
+                                para los Sentidos, el mundo del sabor ecológico y cómo los alimentos cultivados de
+                                manera sostenible transforman tu experiencia culinaria</a>
+                            <!-- Button trigger modal 6 -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#Modal6">
+                                Ver más
+                            </button>
+                            <div class="text-muted border-top pt-4">
+                                <small class="me-3"><i class="fa fa-user text-primary me-2"></i>Admin</small>
+                                <small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>21 Octubre,
+                                    2023</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <!-- Blog fin -->
+
+    <!-- Footer inicio -->
+    <footer id="footer1">
+        <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h1 class="fw-bold text-primary mb-4">G<span class="text-secondary">reeni</span>sh</h1>
+                        <p>Producto ecológico con fruta y verdura 100% ecológica y de proximidad</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
+                                    class="fab fa-youtube"></i></a>
+                            <a class="btn btn-square btn-outline-light rounded-circle me-0" href=""><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Dirección</h4>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>Calle Dr. Alfredo Martínez, 3, España</p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+034 345 345345</p>
+                        <p><i class="fa fa-envelope me-3"></i>greenish@greenish.com</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Enlaces rápidos</h4>
+                        <a class="btn btn-link" href="../index.html">Inicio</a>
+                        <a class="btn btn-link" href="product.html">Productos</a>
+                        <a class="btn btn-link" href="contact.html">Contacto</a>
+                        <a class="btn btn-link" href="testimonial.html">Reseñas</a>
+                        <a class="btn btn-link" href="map.html">Mapa Web</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Newsletter</h4>
+                        <p>Suscríbete y recibe cada semana las novedades que no te puedes perder.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                                placeholder="email">
+                            <button type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Suscríbete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a href="#">Greenish</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            Diseñado por: <a href="#">Pablo López Díaz, 71643564-J</a>
+                            <br>Curso / Módulo: <a href="#" target="_blank">Segundo / DIW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer fin -->
+
+
+    <!-- Vuelve al inicio -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Librerías -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Javascript plantilla-->
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

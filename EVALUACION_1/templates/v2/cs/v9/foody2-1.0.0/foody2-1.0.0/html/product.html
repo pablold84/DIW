@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Foody - Organic Food Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="../img/bg-iconpestana.png" rel="icon"/>
+
+    <!-- Google Web Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap" rel="stylesheet"/> 
+
+     <!-- Fuentes Stylesheet iconos-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"/>
+
+    <!-- Stylesheet librerias-->
+    <link href="../lib/animate/animate.min.css" rel="stylesheet"/>
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Stylesheet -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Stylesheet plantillas-->
+    <link href="../css/style.css" rel="stylesheet"/>
+    
+    <!-- Stylesheet Imprimir-->
+    <link rel="stylesheet" type="text/css" href="../css/printproduct.css" media="print">
+
+</head>
+
+<body>
+    <!-- Spinner inicio -->
+    <header id="head1">
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status"></div>
+    </div>
+    <!-- Spinner fin -->
+
+
+    <!-- Navbar inicio -->
+    <nav>
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <small><i class="fa fa-map-marker-alt me-2"></i>Calle Dr. Alfredo Martínez, 3, España</small>
+                <small class="ms-4"><i class="fa fa-envelope me-2"></i>greenish@greenish.com</small>
+            </div>
+            <div class="col-lg-6 px-5 text-end">
+                <small>Síguenos:</small>
+                <a class="text-body ms-3" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="text-body ms-3" href=""><i class="fab fa-twitter"></i></a>
+                <a class="text-body ms-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                <a class="text-body ms-3" href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <a href="../index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h1 class="fw-bold text-primary m-0">G<span class="text-secondary">reeni</span>sh</h1>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="../index.html" class="nav-item nav-link">Inicio</a>
+                    <a href="../html/blog.html" class="nav-item nav-link">Blog</a>
+                    <a href="../html/product.html" class="nav-item nav-link active">Productos</a>
+                    <a href="../html/testimonial.html" class="nav-item nav-link">Reseñas</a>
+                    <a href="../html/contact.html" class="nav-item nav-link">Contacto</a>
+                </div>
+                <div class="d-none d-lg-flex ms-2">
+                    <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
+                        <small class="fa fa-search text-body"></small>
+                    </a>
+                    <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
+                        <small class="fa fa-user text-body"></small>
+                    </a>
+                    <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
+                        <small class="fa fa-shopping-bag text-body"></small>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    </nav>
+    <!-- Navbar fin -->
+
+    <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container d-none d-sm-block">
+            <h1 class="display-3 mb-3 animated slideInDown">Productos</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a class="text-body" href="../index.html">inicio</a></li>
+                    <li class="breadcrumb-item"><a class="text-body" href="../html/blog.html">blog</a></li>
+                    <li class="breadcrumb-item text-dark active" aria-current="page">Productos</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    </header>
+    <!-- Header fin -->
+
+    <!-- Productos inicio -->
+    <main id="main">
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-0 gx-5 align-items-end">
+                <div class="col-lg-6">
+                    <div class="section-header text-start mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                        <h1 class="display-5 mb-3">Nuestros productos</h1>
+                        <p>Descubre la excelencia en cada detalle, nuestros productos, sinónimo de calidad insuperable y experiencias excepcionales.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
+                        <li class="nav-item me-2">
+                            <a class="btn btn-outline-primary border-2 active" data-bs-toggle="pill" href="#tab-1">Vegetales</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="btn btn-outline-primary border-2" data-bs-toggle="pill" href="#tab-2">Frutas </a>
+                        </li>
+                        <li class="nav-item me-0">
+                            <a class="btn btn-outline-primary border-2" data-bs-toggle="pill" href="#tab-3">Todos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-content">
+                <div id="tab-1" class="tab-pane fade show p-0 active">
+                    <div class="row g-4">
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-veg1.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Tomate fresco</a>
+                                    <span class="text-primary me-1">2,35 €</span>
+                                    <span class="text-body text-decoration-line-through">2,89 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-veg2.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Pimiento</a>
+                                    <span class="text-primary me-1">4,02 €</span>
+                                    <span class="text-body text-decoration-line-through">5,40 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-veg3.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Pepino</a>
+                                    <span class="text-primary me-1">2,50 €</span>
+                                    <span class="text-body text-decoration-line-through">2,87 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-veg4.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Patata</a>
+                                    <span class="text-primary me-1">2,80 €</span>
+                                    <span class="text-body text-decoration-line-through">3,01 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-veg5.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Zanahoria</a>
+                                    <span class="text-primary me-1">1,75 €</span>
+                                    <span class="text-body text-decoration-line-through">1,93 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-veg6.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Espárrago</a>
+                                    <span class="text-primary me-1">4,75 €</span>
+                                    <span class="text-body text-decoration-line-through">5,01 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-veg7.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Berenjena</a>
+                                    <span class="text-primary me-1">1,60 €</span>
+                                    <span class="text-body text-decoration-line-through">2,12 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-veg8.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Cebolla</a>
+                                    <span class="text-primary me-1">2,20 €</span>
+                                    <span class="text-body text-decoration-line-through">2,89 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
+                            <a class="btn btn-primary rounded-pill py-3 px-5" href="#col-12 text-center wow fadeInUp">Buscar más productos</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-2" class="tab-pane fade show p-0">
+                    <div class="row g-4">
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-fru1.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Fresa</a>
+                                    <span class="text-primary me-1">6,15 €</span>
+                                    <span class="text-body text-decoration-line-through">6,89 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-fru2.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Pimiento</a>
+                                    <span class="text-primary me-1">5,95 €</span>
+                                    <span class="text-body text-decoration-line-through">6,40 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-fru3.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Plátano</a>
+                                    <span class="text-primary me-1">3,25 €</span>
+                                    <span class="text-body text-decoration-line-through">3,91 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-fru4.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Manzana</a>
+                                    <span class="text-primary me-1">4,60 €</span>
+                                    <span class="text-body text-decoration-line-through">4,95 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-fru5.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Naranja</a>
+                                    <span class="text-primary me-1">4,25 €</span>
+                                    <span class="text-body text-decoration-line-through">4,65 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-fru6.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Limón</a>
+                                    <span class="text-primary me-1">2,70 €</span>
+                                    <span class="text-body text-decoration-line-through">2,98 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-fru7.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Berenjena</a>
+                                    <span class="text-primary me-1">3,25 €</span>
+                                    <span class="text-body text-decoration-line-through">3,78 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-fru8.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Cereza</a>
+                                    <span class="text-primary me-1">11, 90 €</span>
+                                    <span class="text-body text-decoration-line-through">12,26 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <a class="btn btn-primary rounded-pill py-3 px-5" href="#col-12 text-center">Buscar más productos</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-3" class="tab-pane fade show p-0">
+                    <div class="row g-4">
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-veg1.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Tomate fresco</a>
+                                    <span class="text-primary me-1">2,35 €</span>
+                                    <span class="text-body text-decoration-line-through">2,89 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-veg2.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Pimiento</a>
+                                    <span class="text-primary me-1">4,02 €</span>
+                                    <span class="text-body text-decoration-line-through">5,40 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-veg3.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Pepino</a>
+                                    <span class="text-primary me-1">2,50 €</span>
+                                    <span class="text-body text-decoration-line-through">2,87 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-veg4.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Patata</a>
+                                    <span class="text-primary me-1">2,80 €</span>
+                                    <span class="text-body text-decoration-line-through">3,01 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-veg5.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Zanahoria</a>
+                                    <span class="text-primary me-1">1,75 €</span>
+                                    <span class="text-body text-decoration-line-through">1,93 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-veg6.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Espárrago</a>
+                                    <span class="text-primary me-1">4,75 €</span>
+                                    <span class="text-body text-decoration-line-through">5,01 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-veg7.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Berenjena</a>
+                                    <span class="text-primary me-1">1,60 €</span>
+                                    <span class="text-body text-decoration-line-through">2,12 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-veg8.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Cebolla</a>
+                                    <span class="text-primary me-1">2,20 €</span>
+                                    <span class="text-body text-decoration-line-through">2,89 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-fru1.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Fresa</a>
+                                    <span class="text-primary me-1">6,15 €</span>
+                                    <span class="text-body text-decoration-line-through">6,89 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-fru2.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Pimiento</a>
+                                    <span class="text-primary me-1">5,95 €</span>
+                                    <span class="text-body text-decoration-line-through">6,40 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-fru3.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Plátano</a>
+                                    <span class="text-primary me-1">3,25 €</span>
+                                    <span class="text-body text-decoration-line-through">3,91 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-fru4.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Manzana</a>
+                                    <span class="text-primary me-1">4,60 €</span>
+                                    <span class="text-body text-decoration-line-through">4,95 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-fru5.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Naranja</a>
+                                    <span class="text-primary me-1">4,25 €</span>
+                                    <span class="text-body text-decoration-line-through">4,65 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-fru6.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Limón</a>
+                                    <span class="text-primary me-1">2,70 €</span>
+                                    <span class="text-body text-decoration-line-through">2,98 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-fru7.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Berenjena</a>
+                                    <span class="text-primary me-1">3,25 €</span>
+                                    <span class="text-body text-decoration-line-through">3,78 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="../img/product-fru8.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 no-seleccionable" href="">Cereza</a>
+                                    <span class="text-primary me-1">11, 90 €</span>
+                                    <span class="text-body text-decoration-line-through">12,26 €</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-100 text-center py-2">
+                                        <a class="text-body" href="#text-body"><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <a class="btn btn-primary rounded-pill py-3 px-5" href="#col-12 text-center">Buscar más Productos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <!-- productos fin -->
+
+
+      <!-- Footer inicio -->
+      <footer id="footer1">
+        <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h1 class="fw-bold text-primary mb-4">G<span class="text-secondary">reeni</span>sh</h1>
+                        <p>Producto ecológico con fruta y verdura 100% ecológica y de proximidad</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
+                                    class="fab fa-youtube"></i></a>
+                            <a class="btn btn-square btn-outline-light rounded-circle me-0" href=""><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Datos de contacto</h4>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>Calle Dr. Alfredo Martínez, 3, España</p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+034 345 345345</p>
+                        <p><i class="fa fa-envelope me-3"></i>greenish@greenish.com</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Enlaces rápidos</h4>
+                        <a class="btn btn-link" href="../index.html">Inicio</a>
+                        <a class="btn btn-link" href="contact.html">Contacto</a>
+                        <a class="btn btn-link" href="blog.html">Blog</a>
+                        <a class="btn btn-link" href="testimonial.html">Reseñas</a>
+                        <a class="btn btn-link" href="map.html">Mapa Web</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Newsletter</h4>
+                        <p>Suscríbete y recibe cada semana las novedades que no te puedes perder.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                                placeholder="email">
+                            <button type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Suscríbete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a href="#">Greenish</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            Diseñado por: <a href="#">Pablo López Díaz, 71643564-J</a>
+                            <br>Curso / Módulo: <a href="#" target="_blank">Segundo / DIW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer fin -->
+
+
+    <!-- Vuelve al inicio -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top sin-padding"><i
+        class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Librerías -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Javascript plantilla-->
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

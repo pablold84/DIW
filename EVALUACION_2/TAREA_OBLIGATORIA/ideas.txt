@@ -1,0 +1,45 @@
+SOLIDED
+cuando lo meto en un carrito que vea un icono que se muestra
+
+
+quitar productos ponerlos etc, para recuperar.
+en los formularios se puede vovler a introducir algo (recuperación)
+Evitar que suceda un problema, eliminando falsas trampas que hagan que caigamos en algo por error, 
+por ejemplo pidiendo confirmaciones antes de hacer algo por ejemplo en el carrito, (Prevención de errores)
+Personalización de uso frecuente, para satisfacer a los usuarios más avanzados
+Utilizar textos rojos de los errores explicando lo que significan, también que puedan acceder a las llamadas facs,
+para ver las alternativas a resolver esos problemas.
+
+Analizar la huella de carbono que tenga un porcentaje asumible, y demás herramientas de usabilidad
+
+
+1.Poner el texto alternativo a las imagenes el alt y title en los enlaces
+hecho
+
+2.Teclado accesible con accesskey y title
+
+3.Ayudar al usuario a introducir datos con el placeholder y validarlo
+
+4.dentro de las secciones poner headers
+
+5.Con las tabulaciones buscarlo para que vaya de manera adecuada
+
+meter un campo fecha en la tarea y meter un datepicker acorde al formato de la página
+
+Determinados datos de lo que sea los tenemos que utilizar con tablas dinamicas por ejemplo en jqery urtilizar el dataTables le gusta más, va a pedir meterlo en una nueva sección, en una nueva página, en mi caso mostrar todoa la lista de productos, para uqe se pueda trabajar con la tabla.
+
+esta en el vídeo del 12/03/2024 al final del vídeo
+
+meter los datos dentro del html de la paágina nueva directamente, por ejemplo consulta todos nuestros productos.
+
+meter un autocomplete con jquery
+
+
+
+
+
+También el DatePicker (calendario) por ejemeplo en el formulario
+
+También los efectos
+
+Que pase la validación tanto del html como del css, se puede hacer en w3schools

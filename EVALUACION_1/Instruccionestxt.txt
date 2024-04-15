@@ -1,0 +1,97 @@
+Pagina home con una cabecera que figure un logotipo y un título de pagina
+
+o turismo, gastronomia, cine, actividades educativas
+
+Para el logotipo lo puedo hacer yo con el gimp o de donde lo pueda sacar
+
+tiene que tener una barra de inicio o navegación y otras cuatro mas
+que desde cada una pueda ir al resto
+una sección tiene que ser de contacto con un formulario, cuando un usuario visita la página y quiere ponerse en contacto
+no hace falta que llegue, no hay que hacer javascript y un botón para vaciar el formulario para enviar.
+El resto de secciones queda a mi idea, alomejor en una parte instalaciones, en otra precios horarios
+tenemso que hacer todo el diseño, tiene que ser responsive de los distintos dispositivos y navegadores
+
+Para crear el portal tenemos que utilizar html5 y css3 y para hacer responsve flexbox, bootstrap lo que queramos
+
+Imagenes que se vayan a utilizar o recursos gráficos si son propios no pasa nada
+si son de terceros que estén libres de derechos
+
+En el footer de la página, se pone la dirección de la empresa los teléfonos, redes sociales y demás 
+y un mapa web como el de la universidad de Oviedo con un css que sea navegable
+aviso legal y política de cookies la copio del otro lado
+iconografia puedes ser los de bootstrap
+
+Una pagina que pongo los servicios que ofrece si lo hago en boostraps si utilizo los card de bootstrap y 
+pongo suscriibirse y comprar, no hace falta que funciones, pero las imagenes que no tengan derechos 
+la tipografica, estilos graficos los colores en sintonia con la pagina que diseñe
+
+Tengo que recoger en un documetno la guia de estilo que estoy trabajando con ella.
+alguien venga que diga necesitamos hacer una nueva página para hacer tal cosa
+esto es lo que va a ser el examen, tengo que coger guia de etilo
+si meto un botón tiene que ser como dicte los colores lo mismo
+ahí inica todas las cosas que hay que hacer.
+
+En la fase final, lo que tenemos que entregar todo los ficheros
+Documento con la guía de estilo y trabajo previo (pdf)
+todos los ficheros del proyecto solo un index y el resto origanizado
+bootstrap p bs
+css en la carpeta css
+imagenes en la carpeta img
+queda página index resto de html y el resto de carpetas bien orianizado
+ademas un fichero redmi.txt donde se copie el enlace de la dirección publica donde se aloje el proyecto
+quiero verlo como si fuera un proyecto en produccion
+La solución para que todos podamos tener eso serúa alwaysdata.net
+la página nos deja escoger inglés o francés
+Nos deja alojar los proyectos en un plan libre el proyecto tendrá un nombre por ejemplo proyectodiw.alwaysdata.net
+yo puedo hacer pruebas en local pero tambien puedo hacer pruebas de verdad en cualquier dispositivo o máquina
+hay 100 megas en el plan libres podemos hacer subidas o bajas
+e peude trabajar en todo lo que necesite inclusio con bases de datos
+Tiene protocolo de seguridad
+Para poder utilizar esto nos dió un manual.
+
+¿Qué se entrega?
+Un fichero zip
+¿Qué contiene?
+tido el código debidamente ordenado y documentado
+En las cabeceras de todos los ficheros aparezca mi nombre y apellidos y mi mail de educastur
+Documento Gúía de estilo, no hace falta 20 hojas, no más de 10 hojas, definición del proyecto,
+el tipo de letra el tipo de colores
+Los íconos la distribucion y los bocetos de como va a quedar
+si por el medio hay que cambiar, por ajustes de diseño se ajusta tal pantalla.
+
+Documento de texto readme.txt este documento contien la url donde está publicado el proyectohttp://proyectodiw.alwaysdata.net
+
+Como tener el alojamiento gratuito
+
+para guía de estilo recomienda la de la uma
+uma.es/media/files/guia_web.pdf
+habría que hacer una hoja de estilos para imprimir,
+por ejmplo si alguien quiere imprimir el listado de actividades que se imprima de forma correcta
+lo tiene en cuenta
+
+Meter una etiqueta video donde quiera
+el video no debe reproducirse de mano, definir el autoplay a false y el loop tabién a fase
+también que empiece en muted
+preload si en true
+poster, podemos poner un fotograma de presentación, como el inicio que va a comenzar
+Es recomendable indicar al usuario si hay un problema en la reproducción del video,
+El navegador no soporta la etiqueta de video
+MP4 la opción mejor a escoger y luego el ogg y luego el WEBM, ella quiere los tres formatos.
+
+meter todo el script de javascipt en la carpeta js los mios )esto ya lo tengo), tengo varios que apuntan a una web,
+probar a descargarlos y meterlos dentro de js y probar si todo va bien.
+los cs de bootstrap meterlo dentro de una carpeta bs, y dentro ya los css y los js del propio bootstrap.
+utilizar esta ruta para los botones
+<link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+	
+para el sonido recomendable meter el serc tanto ogg como mp3
+
+Podría plantear algo de geolocaliazcion
+
+cambiar el icono a verde que es el rutico según la profesora o azul
+
+
+

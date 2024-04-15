@@ -1,0 +1,147 @@
+/* Cabecera del Calendario */
+.ui-datepicker-header {
+    background: url('../img/dark_leather.png') repeat 0 0 #3CB815;
+    color: #e0e0e0;
+    font-weight: bold;
+    -webkit-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, 2);
+    -moz-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+    box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+    text-shadow: 1px -1px 0px #3CB815;
+    filter: dropshadow(color=#3CB815, offx=1, offy=-1);
+    line-height: 30px;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #3CB815;
+}
+
+/* Centramos la posicion del mes */
+.ui-datepicker-title {
+    text-align: center;
+}
+
+/** cabecera del mes degradada **/
+ui-datepicker thead {
+    background-color: #f7f7f7;
+    background-image: -moz-linear-gradient(top, #f7f7f7 0%, #f1f1f1 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(100%, #f1f1f1));
+    background-image: -webkit-linear-gradient(top, #f7f7f7 0%, #f1f1f1 100%);
+    background-image: -o-linear-gradient(top, #f7f7f7 0%, #f1f1f1 100%);
+    background-image: -ms-linear-gradient(top, #f7f7f7 0%, #f1f1f1 100%);
+    background-image: linear-gradient(top, #f7f7f7 0%, #f1f1f1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#f1f1f1', GradientType=0);
+    border-bottom: 1px solid #bbb;
+}
+
+/** Los dias de la semana en mayusculas */
+.ui-datepicker th {
+    /*text-transform: uppercase;*/
+    font-size: 8pt;
+    padding: 5px 0;
+    color: #F65005;
+    text-shadow: 1px 0px 0px #fff;
+    filter: dropshadow(color=#fff, offx=1, offy=0);
+}
+
+/** Borde derecho de las celdas dia **/
+.ui-datepicker tbody td {
+  padding: 0;
+  border-right: 1px solid #bbb;
+}
+/** La última columna no tiene borde **/
+.ui-datepicker tbody td:last-child {
+    border-right: 0px;
+}
+
+/** borde inferior de las filas de los dias */
+.ui-datepicker tbody tr {
+    border-bottom: 2px solid #3CB815;
+}
+
+/** La última fila de los dias sin borde **/
+.ui-datepicker tbody tr:last-child {
+    border-bottom: 0px;
+}
+
+/** estilos hover y activo de la fecha */
+
+ui-datepicker td span,
+.ui-datepicker td a {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #666666;
+    text-shadow: 1px 1px 0px #fff;
+    filter: dropshadow(color=#fff, offx=1, offy=1);
+}
+
+.ui-datepicker-calendar .ui-state-default {
+    background: #ededed;
+    background: -moz-linear-gradient(top, #ededed 0%, #dedede 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ededed), color-stop(100%, #dedede));
+    background: -webkit-linear-gradient(top, #ededed 0%, #dedede 100%);
+    background: -o-linear-gradient(top, #ededed 0%, #dedede 100%);
+    background: -ms-linear-gradient(top, #ededed 0%, #dedede 100%);
+    background: linear-gradient(top, #ededed 0%, #dedede 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dedede', GradientType=0);
+    -webkit-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+    -moz-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+    box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+}
+
+/** dias del calendario no seleccionables, ver calendario abril 2024 en la última semana solo son selecionables el 30 y 31**/
+ui-datepicker-unselectable .ui-state-default {
+    background: #f4f4f4;
+    color: #b4b3b3;
+}
+
+/** al hacer hover sobre un dia*/
+.ui-datepicker-calendar .ui-state-hover {
+    background: #F65005;
+    color:white;
+}
+
+
+/** flecha anterior **/
+.ui-datepicker .ui-datepicker-prev , .ui-datepicker-next{
+    right: 2px;
+    background: white;
+}
+
+
+/*Para el item del día del mes seleccionado */
+.ui-datepicker .ui-state-active {
+    background: #F65005;
+    color: #FFFFFF;
+}
+
+/** eliminar borde azul del dia seleccionado **/
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    /* border: 1px solid #003eff; */
+    /*background: #007fff;*/
+    font-weight: normal;
+    color: #ffffff;
+}
+
+/* los sabados y los domingos destacados */
+.ui-datepicker-week-end .ui-state-default {
+    color: #3CB815;
+    background:whitesmoke;
+}
+
+.festivo a {
+    background: #3CB815 !important;
+    color: #ffffff !important;
+}
+ /* Estilo personalizado para el datepicker */
+ .ui-datepicker-trigger {
+    display: none;
+}
