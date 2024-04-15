@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- López Díaz Pablo. DNI: 71643564J-->
+    <meta charset="utf-8">
+    <title>Foody - Organic Food Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="../img/bg-iconpestana.png" rel="icon" />
+
+    <!-- Google Web Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- Fuentes Stylesheet iconos-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Stylesheet librerias-->
+    <link href="../lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Stylesheet -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Stylesheet plantillas-->
+    <link href="../css/style.css" rel="stylesheet" />
+
+    <!-- Stylesheet Imprimir-->
+    <link rel="stylesheet" type="text/css" href="../css/printproduct.css" media="print">
+
+
+    <!-- DateTables -->
+    <!-- CSS de DataTables -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.0.3/css/dataTables.dataTables.min.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- JavaScript de DataTables -->
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/2.0.3/js/dataTables.min.js"></script>
+
+
+
+</head>
+
+<body>
+    <!-- Spinner inicio -->
+    <header id="head1">
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" role="status"></div>
+        </div>
+        <!-- Spinner fin -->
+        <!-- Navbar inicio -->
+        <nav>
+            <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+                <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+                    <div class="col-lg-6 px-5 text-start">
+                        <small><i class="fa fa-map-marker-alt me-2"></i>Calle Dr. Alfredo Martínez, 3, España</small>
+                        <small class="ms-4"><i class="fa fa-envelope me-2"></i>greenish@greenish.com</small>
+                    </div>
+                    <div class="col-lg-6 px-5 text-end">
+                        <small>Síguenos:</small>
+                        <a class="text-body ms-3" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="text-body ms-3" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="text-body ms-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="text-body ms-3" href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="../index.html" class="navbar-brand ms-4 ms-lg-0" title="ir a inicio">
+                        <h1 class="fw-bold text-primary m-0">G<span class="text-secondary">reeni</span>sh</h1>
+                    </a>
+                    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto p-4 p-lg-0">
+                            <a href="../index.html" class="nav-item nav-link" title="inicio">Inicio</a>
+                            <a href="../html/blog.html" class="nav-item nav-link" title="blog">Blog</a>
+                            <a href="../html/product.html" class="nav-item nav-link active"
+                                title="productos">Productos</a>
+                            <a href="../html/testimonial.html" class="nav-item nav-link" title="reseñas">Reseñas</a>
+                            <a href="../html/contact.html" class="nav-item nav-link" title="contacto">Contacto</a>
+                        </div>
+                        <div class="d-none d-lg-flex ms-2">
+                            <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
+                                <small class="fa fa-search text-body"></small>
+                            </a>
+                            <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
+                                <small class="fa fa-user text-body"></small>
+                            </a>
+                            <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
+                                <small class="fa fa-shopping-bag text-body view-cart" data-toggle="modal"
+                                    data-target="#carrito-modal">
+                                    <span id="contador-carrito">0</span>
+                                </small>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+        <!-- Navbar fin -->
+        <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container d-none d-sm-block">
+                <h1 class="display-3 mb-3 animated slideInDown">Productos</h1>
+                <nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item"><a class="text-body" href="../index.html">inicio</a></li>
+                        <li class="breadcrumb-item"><a class="text-body" href="../html/blog.html">blog</a></li>
+                        <li class="breadcrumb-item text-dark active" aria-current="page">Productos</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header fin -->
+    <!-- Productos inicio -->
+    <main id="main">
+
+
+        <!-- Botón de carrito -->
+        <button type="button" class="btn btn-primary view-cart" data-toggle="modal" data-target="#carrito-modal">
+            Ver Carrito
+        </button>
+
+        <!-- Modal del carrito -->
+        <div id="carrito-modal" class="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Carrito de Compras</h5>
+                        <button type="button" class="close" data-dismiss="modal" id="cerrar-modalC">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <table id="carrito-table" class="display" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>Producto</th>
+                                    <th>Precio</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Aquí se llenará la tabla dinámicamente -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                            id="cerrar-modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- productos fin -->
+    <!-- Footer inicio -->
+    <footer id="footer1">
+        <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h1 class="fw-bold text-primary mb-4">G<span class="text-secondary">reeni</span>sh</h1>
+                        <p>Producto ecológico con fruta y verdura 100% ecológica y de proximidad</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
+                                    class="fab fa-youtube"></i></a>
+                            <a class="btn btn-square btn-outline-light rounded-circle me-0" href=""><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Datos de contacto</h4>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>Calle Dr. Alfredo Martínez, 3, España</p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+034 345 345345</p>
+                        <p><i class="fa fa-envelope me-3"></i>greenish@greenish.com</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Enlaces rápidos</h4>
+                        <a class="btn btn-link" href="../index.html">Inicio</a>
+                        <a class="btn btn-link" href="contact.html">Contacto</a>
+                        <a class="btn btn-link" href="blog.html">Blog</a>
+                        <a class="btn btn-link" href="testimonial.html">Reseñas</a>
+                        <a class="btn btn-link" href="map.html">Mapa Web</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Newsletter</h4>
+                        <p>Suscríbete y recibe cada semana las novedades que no te puedes perder.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                                placeholder="email">
+                            <button type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Suscríbete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a href="#" title="ir inicio página">Greenish</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            Diseñado por: <a href="#" title="autor">Pablo López Díaz, 71643564-J</a>
+                            <br>Curso / Módulo: <a href="#" target="_blank" title="referencia">Segundo / DIW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer fin -->
+    <!-- Vuelve al inicio -->
+
+    <!-- JavaScript Librerías -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <!-- Javascript plantilla-->
+    <script src="../js/main.js"></script>
+
+
+
+    <script>
+        $(document).ready(function () {
+            var carrito = [];
+            var table;
+            var contadorCarrito = $('#contador-carrito'); // Selecciona el contador del carrito
+            // Inicializar la tabla DataTable y le doy configuración
+            table = new DataTable('#carrito-table', {
+                "language": {
+                    "lengthMenu": "Mostrar _MENU_ entradas por página",
+                    "zeroRecords": "No se encontraron resultados",
+                    "info": "Mostrando _START_ a _END_ de _TOTAL_ entradas",
+                    "infoEmpty": "Mostrando 0 a 0 de 0 entradas",
+                    "infoFiltered": "(filtrado de _MAX_ entradas totales)",
+                    "search": "Buscar:",
+                    "paginate": {
+                        "first": "Primero",
+                        "last": "Último",
+                        "next": "Siguiente",
+                        "previous": "Anterior",
+                    }
+                }
+            }
+
+            );
+
+            // Manejar clics en "Añadir al carrito"
+            $('.product-item .text-body').click(function (event) {
+                event.preventDefault(); // Evitar que el enlace siga el href
+                var item = $(this).closest('.product-item');
+                var nombre = item.find('.h5').text();
+                var precio = item.find('.text-primary').text();
+                console.log(nombre, precio, item);
+                carrito.push({ nombre: nombre, precio: precio });
+            });
+
+            // Manejar clics en "Añadir al carrito"
+    $('.product-item .text-body').click(function (event) {
+        event.preventDefault();
+        var item = $(this).closest('.product-item');
+        var nombre = item.find('.h5').text();
+        var precio = item.find('.text-primary').text();
+        carrito.push({ nombre: nombre, precio: precio });
+
+        // Actualiza el contador del carrito
+        contadorCarrito.text(carrito.length);
+    });
+
+            // Manejar clics en el botón de carrito
+            $('.view-cart').click(function (event) {
+                event.preventDefault();
+
+                // Limpiar el contenido de la tabla antes de volver a mostrarlo
+                table.clear().draw();
+
+                var total = 0; // Inicializar el total en 0
+
+                // Agregar elementos al carrito a la tabla y calcular el total
+                $.each(carrito, function (index, item) {
+                    table.row.add([item.nombre, item.precio]).draw(false);
+
+                    // Parsear el precio y sumarlo al total
+                    var precio = parseFloat(item.precio.replace(' €', '').replace(',', '.'));
+                    total += precio;
+                });
+
+                // Agregar la fila del total al final de la tabla
+                table.row.add(['<b>Total</b>', total.toFixed(2) + ' €']).draw(false);
+
+                // Mostrar la tabla
+                $('#carrito-table').show();
+
+                // Mostrar el modal del carrito
+                $('#carrito-modal').modal('show');
+            });
+            $('#cerrar-modal').click(function () {
+                $('#carrito-modal').modal('hide');
+            });
+            $('#cerrar-modalC').click(function () {
+                $('#carrito-modal').modal('hide');
+            });
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>

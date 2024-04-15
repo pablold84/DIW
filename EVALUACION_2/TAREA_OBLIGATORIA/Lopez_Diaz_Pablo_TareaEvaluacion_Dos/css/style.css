@@ -376,3 +376,30 @@ ul li{
 .ol-attribution.ol-uncollapsible{
     display: none;
 }
+#contador-carrito{
+    color: #3cb815;
+    font-size: x-large;
+    padding: 6px;
+}
+
+.view-cart{
+    margin-left: 6%;
+    width: 88%;
+}
+.btn-sm-square{
+    width: 52px;
+    height: 52px;
+}
+.fa.fa-shopping-bag, .fa.fa-search, .fa.fa-user {
+    font-size: 24px;
+    display: contents;
+}
+
+.btn-lg-circle {
+    width: 55px; 
+    height: 55px; 
+    line-height: 55px;
+}
+
+
+
