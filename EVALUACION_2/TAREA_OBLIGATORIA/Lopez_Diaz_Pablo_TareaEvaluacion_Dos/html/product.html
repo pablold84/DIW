@@ -33,6 +33,17 @@
 
     <!-- Stylesheet Imprimir-->
     <link rel="stylesheet" type="text/css" href="../css/printproduct.css" media="print">
+    
+     <!-- jQuery -->
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+     <!-- DateTables -->
+     <!-- CSS de DataTables -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.0.3/css/dataTables.dataTables.min.css">
+
+    <!-- JavaScript de DataTables -->
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/2.0.3/js/dataTables.min.js"></script>
+
 
 </head>
 <body>
@@ -84,7 +95,7 @@
                                 <small class="fa fa-user text-body"></small>
                             </a>
                             <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
-                                <small class="fa fa-shopping-bag text-body"></small>
+                                <small class="fa fa-shopping-bag text-body view-cart"></small>
                             </a>
                         </div>
                     </div>
@@ -151,7 +162,7 @@
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
-                                            <a class="text-body" href="#text-body"><i
+                                            <a class="text-body tb" href="#text-body"><i
                                                     class="fa fa-shopping-bag text-primary me-2"></i>Añadir al
                                                 carrito</a>
                                         </small>
@@ -760,6 +771,21 @@
                 </div>
             </div>
         </div>
+
+        <table id="carrito-table">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí se agregarán dinámicamente los elementos del carrito -->
+            </tbody>
+        </table>
+        
+
+
     </main>
     <!-- productos fin -->
     <!-- Footer inicio -->
@@ -836,5 +862,54 @@
     <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
     <!-- Javascript plantilla-->
     <script src="../js/main.js"></script>
+   
+
+    <script>
+        $(document).ready(function () {
+    var carrito = [];
+    var table;
+    // Inicializar la tabla DataTable
+    table = new DataTable('#carrito-table');
+
+    // Manejar clics en "Añadir al carrito"
+    $('.product-item .text-body').click(function (event) {
+        event.preventDefault(); // Evitar que el enlace siga el href
+        var item = $(this).closest('.product-item');
+        var nombre = item.find('.h5').text();
+        var precio = item.find('.text-primary').text();
+        console.log(nombre, precio, item);
+        carrito.push({ nombre: nombre, precio: precio });
+    });
+
+    // Manejar clics en el botón de carrito
+    $('.view-cart').click(function (event) {
+        event.preventDefault();
+
+        // Limpiar el contenido de la tabla antes de volver a mostrarlo
+        table.clear().draw();
+
+        var total = 0; // Inicializar el total en 0
+
+        // Agregar elementos al carrito a la tabla y calcular el total
+        $.each(carrito, function (index, item) {
+            table.row.add([item.nombre, item.precio]).draw(false);
+
+            // Parsear el precio y sumarlo al total
+            var precio = parseFloat(item.precio.replace(' €', '').replace(',', '.'));
+            total += precio;
+        });
+
+        // Agregar la fila del total al final de la tabla
+        table.row.add(['<b>Total</b>', total.toFixed(2) + ' €']).draw(false);
+
+        // Mostrar el modal del carrito
+        $('#carrito-modal').modal('show');
+    });
+});
+
+    </script>
+    
+
+
 </body>
 </html>

@@ -25,21 +25,21 @@ hecho
 5.Con las tabulaciones buscarlo para que vaya de manera adecuada
 
 meter un campo fecha en la tarea y meter un datepicker acorde al formato de la página
+hecho
 
-Determinados datos de lo que sea los tenemos que utilizar con tablas dinamicas por ejemplo en jqery urtilizar el dataTables le gusta más, va a pedir meterlo en una nueva sección, en una nueva página, en mi caso mostrar todoa la lista de productos, para uqe se pueda trabajar con la tabla.
+Determinados datos de lo que sea los tenemos que utilizar con tablas dinamicas por ejemplo en jqery urtilizar el dataTables le gusta más,
+va a pedir meterlo en una nueva sección, en una nueva página, en mi caso mostrar todoa la lista de productos, para que se pueda trabajar con la tabla.
 
 esta en el vídeo del 12/03/2024 al final del vídeo
 
-meter los datos dentro del html de la paágina nueva directamente, por ejemplo consulta todos nuestros productos.
+meter los datos dentro del html de la página nueva directamente, por ejemplo consulta todos nuestros productos.
 
 meter un autocomplete con jquery
 
 
 
-
-
 También el DatePicker (calendario) por ejemeplo en el formulario
+hecho
 
-También los efectos
 
 Que pase la validación tanto del html como del css, se puede hacer en w3schools

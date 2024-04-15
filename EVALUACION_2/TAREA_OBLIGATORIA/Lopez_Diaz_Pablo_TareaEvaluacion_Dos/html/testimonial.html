@@ -193,24 +193,24 @@
                     <p class="mb-4">Tu opinión es importante para nosotros y para la comunidad que valora la calidad y
                         sostenibilidad. ¡Añade tu comentario y forma parte de la conversación por un estilo de vida más
                         saludable y ecológico!</p>
-                    <form>
+                    <form id="myForm">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
                                     <input type="text" class="form-control" id="name" placeholder="Your Name"
-                                        maxlength="20" minlength="3">
+                                        maxlength="20" minlength="3" required>
                                     <label for="name">Nombre</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
                                     <label for="email">Email</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
                                     <label for="subject">Asunto Reseña</label>
                                 </div>
                             </div>
@@ -222,8 +222,7 @@
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary rounded-pill py-3 px-5" type="submit"
-                                    onclick="enviarFormularioRes()">Enviar</button>
+                                <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Enviar</button>
                             </div>
                         </div>
                     </form>

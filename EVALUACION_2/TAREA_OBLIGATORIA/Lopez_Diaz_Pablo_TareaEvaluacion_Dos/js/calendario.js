@@ -47,7 +47,7 @@ $(function () {
     ], //nombres de los dias de la semana en formato largo
     dayNamesShort: ["Dom", "Lun", "Mar", "Mié", "Juv", "Vie", "Sáb"], //nombres de los dias de la semana en formao corto
     dayNamesMin: ["Do", "Lu", "Ma", "Mi", "Ju", "Vi", "Sá"], //nombres de los dias de la semana en formato mínimo
-    yearRange: "2018:2028", //rango de años
+    yearRange: "1928:2028", //rango de años
     beforeShowDay: festivos,
   });
 });
