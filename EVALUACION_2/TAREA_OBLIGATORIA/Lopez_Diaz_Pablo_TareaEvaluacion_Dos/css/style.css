@@ -400,6 +400,9 @@ ul li{
     height: 55px; 
     line-height: 55px;
 }
-
+.input-group label{
+    align-content: center;
+    padding-right: 10px;
+}
 
 
