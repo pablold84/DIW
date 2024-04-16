@@ -376,7 +376,7 @@ ul li{
 .ol-attribution.ol-uncollapsible{
     display: none;
 }
-#contador-carrito{
+#contador-carrito,#contador-carrito-toggle{
     color: #3cb815;
     font-size: x-large;
     padding: 6px;
@@ -404,5 +404,3 @@ ul li{
     align-content: center;
     padding-right: 10px;
 }
-
-

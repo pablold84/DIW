@@ -77,10 +77,19 @@
                     <a href="../index.html" class="navbar-brand ms-4 ms-lg-0" title="ir a inicio">
                         <h1 class="fw-bold text-primary m-0">G<span class="text-secondary">reeni</span>sh</h1>
                     </a>
+                         <span class="navbar-toggler me-4" data-bs-toggle="collapse">
+                        <a  href="">
+                        <small class="fa fa-shopping-bag text-body view-cart" data-toggle="modal" data-target="#carrito-modal">
+                            <span id="contador-carrito-toggle">0</span>
+                        </small>
+                        </a>
+                    </span>
                     <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
                         data-bs-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon">
+                        </span>
                     </button>
+         
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav ms-auto p-4 p-lg-0">
                             <a href="../index.html" class="nav-item nav-link" title="inicio">Inicio</a>
@@ -173,7 +182,7 @@
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
-                                            <a class="text-body tb" href="#text-body" >Añadir al carrito</a>
+                                            <a class="text-body tb" href="#text-body" ><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
                                         </small>
                                     </div>
                                 </div>
@@ -188,11 +197,16 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Pimiento</a>
                                         <span class="text-primary me-1">4,02 €</span>
                                         <span class="text-body text-decoration-line-through">5,40 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 4,02 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
-                                            <a class="text-body" href="#text-body"><i
-                                                    class="fa fa-shopping-bag text-primary me-2"></i>Añadir al
+                                            <a class="text-body" href="#text-body">
+                                                <i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al
                                                 carrito</a>
                                         </small>
                                     </div>
@@ -208,6 +222,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Pepino</a>
                                         <span class="text-primary me-1">2,50 €</span>
                                         <span class="text-body text-decoration-line-through">2,87 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 2,50 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -228,6 +247,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Patata</a>
                                         <span class="text-primary me-1">2,80 €</span>
                                         <span class="text-body text-decoration-line-through">3,01 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 2,80 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -248,6 +272,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Zanahoria</a>
                                         <span class="text-primary me-1">1,75 €</span>
                                         <span class="text-body text-decoration-line-through">1,93 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 1,75 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -268,6 +297,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Espárrago</a>
                                         <span class="text-primary me-1">4,75 €</span>
                                         <span class="text-body text-decoration-line-through">5,01 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 4,75 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -288,6 +322,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Berenjena</a>
                                         <span class="text-primary me-1">1,60 €</span>
                                         <span class="text-body text-decoration-line-through">2,12 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 1,60 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -308,6 +347,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Cebolla</a>
                                         <span class="text-primary me-1">2,20 €</span>
                                         <span class="text-body text-decoration-line-through">2,89 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 2,20 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -332,6 +376,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Fresa</a>
                                         <span class="text-primary me-1">6,15 €</span>
                                         <span class="text-body text-decoration-line-through">6,89 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 6,15 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -352,6 +401,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Piña</a>
                                         <span class="text-primary me-1">5,95 €</span>
                                         <span class="text-body text-decoration-line-through">6,40 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 5,95 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -372,6 +426,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Plátano</a>
                                         <span class="text-primary me-1">3,25 €</span>
                                         <span class="text-body text-decoration-line-through">3,91 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 3,25 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -392,6 +451,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Manzana</a>
                                         <span class="text-primary me-1">4,60 €</span>
                                         <span class="text-body text-decoration-line-through">4,95 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 4,60 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -412,6 +476,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Naranja</a>
                                         <span class="text-primary me-1">4,25 €</span>
                                         <span class="text-body text-decoration-line-through">4,65 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 4,25 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -432,6 +501,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Limón</a>
                                         <span class="text-primary me-1">2,70 €</span>
                                         <span class="text-body text-decoration-line-through">2,98 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 2,70 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -452,6 +526,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Pera</a>
                                         <span class="text-primary me-1">3,25 €</span>
                                         <span class="text-body text-decoration-line-through">3,78 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 3,25 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -472,6 +551,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Cereza</a>
                                         <span class="text-primary me-1">11, 90 €</span>
                                         <span class="text-body text-decoration-line-through">12,26 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 11,90 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -496,6 +580,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Tomate fresco</a>
                                         <span class="text-primary me-1">2,35 €</span>
                                         <span class="text-body text-decoration-line-through">2,89 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 2,35 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -516,6 +605,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Pimiento</a>
                                         <span class="text-primary me-1">4,02 €</span>
                                         <span class="text-body text-decoration-line-through">5,40 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 4,02 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -536,6 +630,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Pepino</a>
                                         <span class="text-primary me-1">2,50 €</span>
                                         <span class="text-body text-decoration-line-through">2,87 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 2,50 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -556,6 +655,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Patata</a>
                                         <span class="text-primary me-1">2,80 €</span>
                                         <span class="text-body text-decoration-line-through">3,01 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 2,80 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -576,6 +680,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Zanahoria</a>
                                         <span class="text-primary me-1">1,75 €</span>
                                         <span class="text-body text-decoration-line-through">1,93 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 1,75 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -596,6 +705,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Espárrago</a>
                                         <span class="text-primary me-1">4,75 €</span>
                                         <span class="text-body text-decoration-line-through">5,01 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 4,75 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -616,6 +730,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Berenjena</a>
                                         <span class="text-primary me-1">1,60 €</span>
                                         <span class="text-body text-decoration-line-through">2,12 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 1,60 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -636,6 +755,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Cebolla</a>
                                         <span class="text-primary me-1">2,20 €</span>
                                         <span class="text-body text-decoration-line-through">2,89 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 2,20 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -656,6 +780,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Fresa</a>
                                         <span class="text-primary me-1">6,15 €</span>
                                         <span class="text-body text-decoration-line-through">6,89 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 6,15 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -676,6 +805,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Pimiento</a>
                                         <span class="text-primary me-1">5,95 €</span>
                                         <span class="text-body text-decoration-line-through">6,40 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 5,95 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -696,6 +830,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Plátano</a>
                                         <span class="text-primary me-1">3,25 €</span>
                                         <span class="text-body text-decoration-line-through">3,91 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 3,25 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -716,6 +855,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Manzana</a>
                                         <span class="text-primary me-1">4,60 €</span>
                                         <span class="text-body text-decoration-line-through">4,95 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 4,60 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -736,6 +880,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Naranja</a>
                                         <span class="text-primary me-1">4,25 €</span>
                                         <span class="text-body text-decoration-line-through">4,65 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 4,25 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -756,6 +905,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Limón</a>
                                         <span class="text-primary me-1">2,70 €</span>
                                         <span class="text-body text-decoration-line-through">2,98 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 2,70 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -773,9 +927,14 @@
                                             title="peras">
                                     </div>
                                     <div class="text-center p-4">
-                                        <a class="d-block h5 mb-2 no-seleccionable" href="">Berenjena</a>
+                                        <a class="d-block h5 mb-2 no-seleccionable" href="">Pera</a>
                                         <span class="text-primary me-1">3,25 €</span>
                                         <span class="text-body text-decoration-line-through">3,78 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 3,25 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -796,6 +955,11 @@
                                         <a class="d-block h5 mb-2 no-seleccionable" href="">Cereza</a>
                                         <span class="text-primary me-1">11, 90 €</span>
                                         <span class="text-body text-decoration-line-through">12,26 €</span>
+                                        <div class="input-group mt-2">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input type="number" class="form-control quantity" value="1" min="1">
+                                        </div>
+                                        <div class="total mt-2">Total: 11,90 €</div>
                                     </div>
                                     <div class="d-flex border-top">
                                         <small class="w-100 text-center py-2">
@@ -929,95 +1093,7 @@
     <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
     <!-- Javascript plantilla-->
     <script src="../js/main.js"></script>
-
-
-
-    <script>
-        var carrito = [];
-        var table;
-
-        $(document).ready(function () {
-            // Inicializar la tabla DataTable y le doy configuración
-            table = new DataTable('#carrito-table', {
-                "language": {
-                    "lengthMenu": "Mostrar _MENU_ entradas por página",
-                    "zeroRecords": "No se encontraron resultados",
-                    "info": "Mostrando _START_ a _END_ de _TOTAL_ entradas",
-                    "infoEmpty": "Mostrando 0 a 0 de 0 entradas",
-                    "infoFiltered": "(filtrado de _MAX_ entradas totales)",
-                    "search": "Buscar:",
-                    "paginate": {
-                        "first": "Primero",
-                        "last": "Último",
-                        "next": "Siguiente",
-                        "previous": "Anterior",
-                    }
-                }
-            });
-
-            // Manejar clics en el botón de carrito
-            $('.view-cart').click(function (event) {
-                event.preventDefault();
-
-                // Limpiar el contenido de la tabla antes de volver a mostrarlo
-                table.clear().draw();
-
-                var totalGeneral = 0; // Inicializar el total general en 0
-
-                // Agregar elementos al carrito a la tabla y calcular el total
-                $.each(carrito, function (index, item) {
-                    var totalProducto = item.cantidad * item.precioUnitario;
-                    table.row.add([item.nombre, item.cantidad, item.precioUnitario.toFixed(2) + ' €']).draw(false);
-
-                    // Sumar el total del producto al total general
-                    totalGeneral += totalProducto;
-                });
-
-                // Agregar la fila del total general al final de la tabla
-                $('#total-column').text(totalGeneral.toFixed(2) + ' €');
-
-                // Mostrar la tabla
-                $('#carrito-table').show();
-
-                // Mostrar el modal del carrito
-                $('#carrito-modal').modal('show');
-            });
-
-            // Cerrar modales
-            $('#cerrar-modal').click(function () {
-                $('#carrito-modal').modal('hide');
-            });
-
-            $('#cerrar-modalC').click(function () {
-                $('#carrito-modal').modal('hide');
-            });
-
-            // Manejar clics en "Añadir al carrito"
-            $('.product-item .text-body').click(function (event) {
-                event.preventDefault(); // Evitar que el enlace siga el href
-                var item = $(this).closest('.product-item');
-                var nombre = item.find('.h5').text();
-                var precio = item.find('.text-primary').text();
-                var cantidad = parseInt(item.find('.quantity').val());
-                var precioUnitario = parseFloat(precio.replace(' €', '').replace(',', '.'));
-
-                // Añadir al carrito
-                carrito.push({ nombre: nombre, cantidad: cantidad, precioUnitario: precioUnitario });
-
-                // Actualizar el contador del carritos
-                $('#contador-carrito').text(carrito.length);
-            });
-
-            // Actualizar el total cuando se cambie la cantidad
-            $('.quantity').on('input', function () {
-                var item = $(this).closest('.product-item');
-                var precioUnitario = parseFloat(item.find('.text-primary').text().replace(' €', '').replace(',', '.'));
-                var cantidad = parseInt($(this).val());
-                var totalProducto = precioUnitario * cantidad;
-                item.find('.total').text('Total: ' + totalProducto.toFixed(2) + ' €');
-            });
-        });
-    </script>
+    <script src="../js/product.js"></script>
     
 </body>
 </html>
