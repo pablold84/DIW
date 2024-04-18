@@ -404,3 +404,7 @@ ul li{
     align-content: center;
     padding-right: 10px;
 }
+
+.modal-title {
+    font-family: 'Open Sans', sans-serif;
+}
