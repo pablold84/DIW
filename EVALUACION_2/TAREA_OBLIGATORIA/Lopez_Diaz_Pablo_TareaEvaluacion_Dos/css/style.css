@@ -45,7 +45,8 @@
 .btn.btn-secondary,
 .btn.btn-outline-primary:hover,
 .btn.btn-outline-secondary:hover {
-    color: #FFFFFF;
+    color: #111;
+    font-weight: bolder;
 }
 .btn-square {
     width: 38px;
@@ -85,14 +86,17 @@
     vertical-align: middle;
     margin-left: 8px;
 }
+.text-body{
+    color: var(--primary) !important;
+}
 .navbar .navbar-nav .nav-link {
     padding: 25px 15px;
-    color: #F65005;
+    color: #f65005;
     font-weight: 500;
     outline: none;
 }
 .active{
-    color: #111 !important;
+    color: #f65005 !important;
 }
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
@@ -172,6 +176,12 @@
 }
 .breadcrumb-item+.breadcrumb-item::before {
     color: #999999;
+}
+.mb-5b{
+    color: #111 !important;
+}
+.suscribe{
+    display: flex;
 }
 /*** Section Header ***/
 .section-header {
@@ -258,7 +268,7 @@
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item * {
-    color: #FFFFFF !important;
+    color: #333 !important;
 }
 .testimonial-carousel .owl-item.center .testimonial-item i {
     color: var(--secondary) !important;
@@ -380,30 +390,53 @@ ul li{
     display: none;
 }
 #contador-carrito,#contador-carrito-toggle{
-    color: black !important;
+    color: var(--primary) !important;
     font-weight: bolder;
     font-size: x-large;
     padding: 6px;
 }
+.navbar-expand-lg{
+    background-color: #111111;
+}
+.text-body-b, .fa-map-marker-alt, .fa-envelope{
+    color: #555;
+}
+.breadcrumb-item a{
+    color: #555 !important;}
 
 .view-cart{
     margin-left: 6%;
     width: 88%;
-    color: black !important;
     font-weight: bolder;
+    color: #111111 !important;
 }
 .price{
     color: black !important;
     font-weight: bolder;
 }
-.me-1{
-    color: black !important;
-    font-weight: bolder;
-}
+
 .active{
     color: black !important;
     font-weight: bolder;
 }
+
+small{
+    color: black !important;
+    font-weight: bolder;
+}
+.text-decoration-line-through{
+    color:#333 !important;
+    font-weight: bolder !important;
+}
+.text-center a{
+    color:#333 !important;
+    font-weight: bolder !important;
+}
+.fa-shopping-bag{
+    color:var(--primary) !important;
+    font-weight: bolder !important;
+}
+
 .btn-sm-square{
     width: 52px;
     height: 52px;
