@@ -445,7 +445,25 @@ small{
     font-size: 24px;
     display: contents;
 }
+.btn-outline-light{
+    color: #111 !important;
+}
 
+.me-1{
+    color: #111 !important;
+}
+.btn-footer{
+    color: #fff !important;
+}
+
+.navbar-toggler{
+    border: 2px solid #fff !important;
+}
+.navbar-toggler-icon{
+    background-color: #3CB815 !important;
+    
+    
+}
 .btn-lg-circle {
     width: 55px; 
     height: 55px; 

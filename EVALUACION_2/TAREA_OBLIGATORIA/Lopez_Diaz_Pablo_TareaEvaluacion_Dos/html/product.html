@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <!-- López Díaz Pablo. DNI: 71643564J-->
@@ -43,7 +43,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.0.3/css/dataTables.dataTables.min.css">
 
     <!-- JavaScript de DataTables -->
-    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/2.0.3/js/dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/2.0.3/js/dataTables.min.js"></script>
 
 
 </head>
@@ -58,7 +58,7 @@
         <!-- Spinner fin -->
         <!-- Navbar inicio -->
         <nav>
-            <div class="container-fluid fixed-top px-0 wow bg-white fadeIn" data-wow-delay="0.1s">
+            <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
                 <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
                     <div class="col-lg-6 px-5 text-start">
                         <small><i class="fa fa-map-marker-alt me-2"></i>Calle Dr. Alfredo Martínez, 3, España</small>
@@ -92,12 +92,12 @@
          
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav ms-auto p-4 p-lg-0">
-                            <a href="../index.html" class="nav-item nav-link" title="inicio">Inicio</a>
-                            <a href="../html/blog.html" class="nav-item nav-link" title="blog">Blog</a>
-                            <a href="../html/product.html" class="nav-item nav-link active"
+                            <a href="../index.html" accesskey="i" tabindex="1" class="nav-item nav-link" title="inicio">Inicio</a>
+                            <a href="../html/blog.html" accesskey="b" tabindex="2" class="nav-item nav-link" title="blog">Blog</a>
+                            <a href="../html/product.html" accesskey="p" tabindex="3" class="nav-item nav-link active"
                                 title="productos">Productos</a>
-                            <a href="../html/testimonial.html" class="nav-item nav-link" title="reseñas">Reseñas</a>
-                            <a href="../html/contact.html" class="nav-item nav-link" title="contacto">Contacto</a>
+                            <a href="../html/testimonial.html" accesskey="t" tabindex="4" class="nav-item nav-link" title="reseñas">Reseñas</a>
+                            <a href="../html/contact.html" accesskey="c" tabindex="5" class="nav-item nav-link" title="contacto">Contacto</a>
                         </div>
                         <div class="d-none d-lg-flex ms-2">
                             <a class="btn-sm-square bg-white rounded-circle ms-3" href="#">
@@ -106,7 +106,7 @@
                             <a class="btn-sm-square bg-white rounded-circle ms-3" href="#">
                                 <small class="fa fa-user text-body"></small>
                                 <span class="sr-only">f</span></a>
-                            <a class="btn-sm-square bg-white rounded-circle ms-3" href="#">
+                            <a accesskey="k" class="btn-sm-square bg-white rounded-circle ms-3" href="#">
                                 <small class="fa fa-shopping-bag text-body view-cart" data-toggle="modal" data-target="#carrito-modal">
                                     <span id="contador-carrito">0</span>
                                 </small>
@@ -123,7 +123,7 @@
                 <nav aria-label="breadcrumb animated slideInDown">
                     <ol class="breadcrumb mb-0">
                         <li class="breadcrumb-item"><a class="text-body" href="../index.html">inicio</a></li>
-                        <li class="breadcrumb-item"><a class="text-body" href="../html/blog.html">blog</a></li>
+                        <li class="breadcrumb-item"><a class="text-body" href="../html/blog.html" accesskey="b">blog</a></li>
                         <li class="breadcrumb-item text-dark active" aria-current="page">Productos</li>
                     </ol>
                 </nav>
@@ -147,15 +147,15 @@
                     <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
                         <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
                             <li class="nav-item me-2">
-                                <a class="btn btn-outline-primary border-2 active" data-bs-toggle="pill"
+                                <a class="btn btn-outline-primary border-2 active" accesskey="v" data-bs-toggle="pill"
                                     href="#tab-1">Vegetales</a>
                             </li>
                             <li class="nav-item me-2">
-                                <a class="btn btn-outline-primary border-2" data-bs-toggle="pill" href="#tab-2">Frutas
+                                <a class="btn btn-outline-primary border-2" data-bs-toggle="pill" accesskey="l" href="#tab-2">Frutas
                                 </a>
                             </li>
                             <li class="nav-item me-0">
-                                <a class="btn btn-outline-primary border-2" data-bs-toggle="pill"
+                                <a class="btn btn-outline-primary border-2" data-bs-toggle="pill" accesskey="a"
                                     href="#tab-3">Todos</a>
                             </li>
                         </ul>
@@ -1027,13 +1027,13 @@
                         <h1 class="fw-bold text-primary mb-4">G<span class="text-secondary">reeni</span>sh</h1>
                         <p>Producto ecológico con fruta y verdura 100% ecológica y de proximidad</p>
                         <div class="d-flex pt-2">
-                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href="#"><i
+                            <a class="btn btn-square btn-outline-light btn-footer rounded-circle me-1" href=""><i
                                     class="fab fa-twitter"></i><span class="sr-only">f</span></a>
-                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href="#"><i
+                            <a class="btn btn-square btn-outline-light btn-footer rounded-circle me-1" href=""><i
                                     class="fab fa-facebook-f"></i><span class="sr-only">f</span></a>
-                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href="#"><i
+                            <a class="btn btn-square btn-outline-light btn-footer rounded-circle me-1" href=""><i
                                     class="fab fa-youtube"></i><span class="sr-only">f</span></a>
-                            <a class="btn btn-square btn-outline-light rounded-circle me-0" href="#"><i
+                            <a class="btn btn-square btn-outline-light btn-footer rounded-circle me-0" href=""><i
                                     class="fab fa-linkedin-in"></i><span class="sr-only">f</span></a>
                         </div>
                     </div>
@@ -1045,11 +1045,11 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h2 class="text-light mb-4">Enlaces rápidos</h2>
-                        <a class="btn btn-link" href="../index.html">Inicio</a>
-                        <a class="btn btn-link" href="contact.html">Contacto</a>
-                        <a class="btn btn-link" href="blog.html">Blog</a>
-                        <a class="btn btn-link" href="testimonial.html">Reseñas</a>
-                        <a class="btn btn-link" href="map.html">Mapa Web</a>
+                        <a class="btn btn-link" href="../index.html"  accesskey="i">Inicio</a>
+                        <a class="btn btn-link" href="contact.html" accesskey="c">Contacto</a>
+                        <a class="btn btn-link" href="blog.html" accesskey="b">Blog</a>
+                        <a class="btn btn-link" href="testimonial.html" accesskey="t">Reseñas</a>
+                        <a class="btn btn-link" href="map.html" accesskey="m">Mapa Web</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h2 class="text-light mb-4">Newsletter</h2>
