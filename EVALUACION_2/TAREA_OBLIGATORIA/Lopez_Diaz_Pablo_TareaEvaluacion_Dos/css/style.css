@@ -349,25 +349,25 @@
     font-weight: normal !important;
 }
 ul li:nth-child(odd) a{
-    color: #3cb815;
+    color: #111;
 }
 ul li:nth-child(even) a{
-    color: #f65005;
+    color: #111;
 }
 ul li:nth-child(even) a{
-    color: #f65005;
+    color: #111;
 }
 ul ul > li:nth-child(odd) a{
-    color: #3cb815;
+    color: #111;
 }
 ul ul > li:nth-child(even) a{
-    color: #f65005;
+    color: #111;
 }
 ul li:nth-child(even)::marker {
-    color: #3cb815;
+    color: #111;
 }
 ul li:nth-child(odd)::marker {
-    color: #f65005;
+    color: #111;
 }
 ul li{
     padding: 0.5rem;
